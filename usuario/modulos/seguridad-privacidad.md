@@ -1,35 +1,58 @@
 ---
 title: "Seguridad y privacidad"
-description: "Cómo protege elena tus datos y los de tu negocio"
+description: "Cómo protege elena tus datos, los de tu negocio y los de tus clientes"
 audience: ambos
 modulo: seguridad
-rag_tags: [seguridad, privacidad, datos, cifrado, acceso]
+rag_tags: [seguridad, privacidad, datos, cifrado, acceso, roles, sesion, csd, https, proteccion]
 ---
 
-# Seguridad y privacidad
+## ¿Cómo viajan tus datos?
 
-## ¿Cómo protege elena tus datos?
-
-Tu información viaja cifrada en todo momento mediante HTTPS.
-Solo las personas con acceso autorizado a tu cuenta pueden ver los datos de tu negocio.
+Todo el tráfico entre tu dispositivo y elena va cifrado con HTTPS — el mismo
+estándar que usan los bancos en línea. Nadie puede interceptar tus ventas,
+datos de clientes o información fiscal en tránsito.
 
 ## Control de acceso por roles
 
-Elena tiene tres niveles de acceso:
+Elena tiene tres niveles de acceso que tú configuras:
 
-| Rol | Acceso |
+| Rol | ¿Qué puede hacer? |
 |---|---|
-| Dueño | Configuración completa, reportes, usuarios |
-| Gerente | Ventas, inventario, reportes |
-| Cajero | Solo cobro y apertura/cierre de turno |
+| Dueño | Todo: configuración, reportes, usuarios, facturación |
+| Gerente | Ventas, inventario, reportes — sin crear usuarios dueño |
+| Cajero | Solo cobro, apertura y cierre de turno |
 
-## Tus certificados fiscales (CSD)
+Un cajero no puede ver reportes de ventas, configurar productos ni acceder
+al módulo de usuarios.
 
-Si usas facturación electrónica, el Certificado de Sello Digital que subes
-se cifra antes de almacenarse. El equipo de elena no puede ver ni exportar
-tu llave privada.
+## Sesiones con expiración automática
 
-## Sesiones automáticas
+Las sesiones expiran automáticamente para proteger tu cuenta si olvidas
+cerrar sesión en un dispositivo compartido. Al volver, solo necesitas
+ingresar tu contraseña.
 
-Las sesiones expiran automáticamente por inactividad para proteger tu cuenta
-si olvidas cerrar sesión.
+## Datos de cada negocio, aislados
+
+Cada negocio (tenant) tiene sus datos completamente separados. Es imposible
+que los datos de un negocio sean accesibles desde otro, aunque estén en la
+misma plataforma.
+
+## Tu Certificado de Sello Digital (CFDI)
+
+Si usas facturación electrónica y subes tu CSD, este se cifra antes de
+almacenarse en nuestros servidores. Nadie en el equipo de elena puede verlo,
+descargarlo ni usarlo fuera de la generación de tus facturas.
+
+## Preguntas frecuentes
+
+**¿Elena almacena datos de tarjetas de mis clientes?**
+No. Elena no procesa ni almacena números de tarjeta. Solo registra el método
+de pago (tarjeta crédito/débito) y el monto de la transacción.
+
+**¿Qué pasa si pierdo mi contraseña?**
+Puedes restablecerla con el link de recuperación en la pantalla de login.
+Si eres dueño y no tienes acceso al correo, contacta a soporte.
+
+**¿Puedo revocar el acceso de un cajero?**
+Sí. En **Usuarios**, desactiva al usuario — su acceso queda bloqueado
+inmediatamente sin necesidad de cambiar contraseñas.
