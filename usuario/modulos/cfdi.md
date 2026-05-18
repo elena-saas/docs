@@ -25,7 +25,7 @@ Antes de emitir la primera factura, el dueño configura los datos del negocio:
 1. Ir a **Fiscal** en el menú lateral.
 2. Ingresar RFC, nombre fiscal (razón social exacta del SAT), código postal fiscal
    y régimen fiscal del negocio.
-3. Elegir el modo de facturación (ver la siguiente sección).
+3. Elegir el modo de facturación: **Integral** (recomendado) o **Exportación**.
 4. Guardar la configuración.
 
 ## Modos de facturación
@@ -36,7 +36,7 @@ Digital (CSD) en Configuración Fiscal. La factura queda lista en segundos.
 
 **Modo Exportación**
 elena genera el XML sin timbrar. Úsalo si tu negocio ya tiene contrato con un
-sistema como Contpaq o SAP. Llevas el XML a ese sistema para timbrar.
+sistema de facturación propio. Llevas el XML a ese sistema para timbrar.
 
 ## Cómo emitir una factura desde el cobro
 
@@ -71,6 +71,7 @@ El SAT requiere indicar el motivo:
 | 01 — Con relación | Se emitió otra factura correcta en sustitución |
 | 02 — Sin relación | Error en datos, sin factura sustituta |
 | 03 — No se realizó | La operación no ocurrió |
+| 04 — Operación nominativa | Factura global relacionada con la operación |
 
 Una vez cancelada, el CFDI queda inválido ante el SAT. No se puede reactivar.
 
