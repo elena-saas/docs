@@ -1,0 +1,53 @@
+---
+title: "Reportes"
+description: "Analiza ventas, empleados, productos, costos y salud operativa de tu negocio"
+audience: dueno
+modulo: reportes
+rag_tags: [reportes, ventas, empleados, productos, costos, margen, descuentos, devoluciones, cortes]
+---
+
+## ¿Qué es el módulo de Reportes?
+
+Un panel con 5 vistas para analizar el desempeño de tu negocio en un rango de fechas (7, 30, 90
+días o personalizado). Disponible solo para dueño y gerente.
+
+## Ventas
+
+Totales del periodo comparados contra el periodo anterior, tendencia de ventas (por día, semana o
+mes según el rango elegido) y desglose por día de la semana — útil para identificar tus días más
+fuertes.
+
+## Empleados
+
+Ingresos y servicios completados por cada empleado, medido a partir de las citas del módulo de
+Agenda (no de quién cobró la venta). Requiere que el módulo de Agenda esté activo; si no lo
+tienes, esta vista no muestra datos.
+
+## Productos
+
+Ranking de productos por unidades vendidas, ingreso generado y margen, además de un agregado por
+categoría — para identificar tus productos estrella y los de bajo movimiento.
+
+## Costos
+
+Ingreso, costo y margen total del periodo, tendencia de margen a lo largo del tiempo, y tus 5
+productos con mejor y peor margen porcentual.
+
+## Salud operativa
+
+Descuentos aplicados en el periodo, devoluciones con sus motivos más comunes, y diferencias de
+caja por cajero detectadas en los cortes de turno — señales tempranas de posibles problemas
+operativos.
+
+## Preguntas frecuentes
+
+**¿Por qué no veo datos en la pestaña Empleados?**
+Ese reporte depende del módulo de Agenda. Si no lo tienes activo, actívalo desde tu plan para
+empezar a ver estos datos.
+
+**¿El cajero puede ver Reportes?**
+No. Solo dueño y gerente tienen acceso a este módulo.
+
+**¿Puedo exportar los reportes?**
+Actualmente los reportes se consultan en pantalla dentro de elena; no hay exportación a
+Excel/PDF por ahora.
