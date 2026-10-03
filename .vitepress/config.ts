@@ -32,6 +32,7 @@ export default defineConfig({
           text: 'Módulos',
           items: [
             { text: 'Cobro y ventas',         link: '/usuario/modulos/cobro' },
+            { text: 'Ticket',                  link: '/usuario/modulos/ticket' },
             { text: 'Inventario',             link: '/usuario/modulos/inventario' },
             { text: 'Cortes de caja',         link: '/usuario/modulos/cortes' },
             { text: 'Apartados',              link: '/usuario/modulos/apartados' },
@@ -42,6 +43,7 @@ export default defineConfig({
             { text: 'Agenda y citas',          link: '/usuario/modulos/agenda-citas' },
             { text: 'Comisiones',              link: '/usuario/modulos/comisiones' },
             { text: 'Reportes',                link: '/usuario/modulos/reportes' },
+            { text: 'Sucursales',              link: '/usuario/modulos/sucursales' },
             { text: 'Usuarios',                link: '/usuario/modulos/usuarios' },
             { text: 'Análisis con IA',         link: '/usuario/modulos/ia-insights' },
             { text: 'Seguridad y privacidad',  link: '/usuario/modulos/seguridad-privacidad' },

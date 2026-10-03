@@ -23,6 +23,22 @@ Recibirás un correo con un link de activación. Al hacer clic:
 
 Para cargar muchos productos a la vez, usa el botón **"Importar Excel"** en el módulo de Inventario.
 
+## Completar los datos de la sucursal
+
+1. Ve a **Administración** → **Sucursales**.
+2. Edita tu sucursal y captura la dirección y el teléfono.
+3. Guarda los cambios — estos datos pueden mostrarse en el ticket de venta.
+
+Consulta [Sucursales](/usuario/modulos/sucursales) para conocer todas las opciones.
+
+## Personalizar el ticket
+
+1. Ve a **Administración** → **Ticket**.
+2. Agrega tu logo, datos de contacto y el mensaje que quieras mostrar.
+3. Revisa la vista previa, imprime una prueba y guarda la configuración.
+
+Consulta [Personalizar el ticket](/usuario/modulos/ticket) para ver el proceso completo.
+
 ## Agregar usuarios (cajeros y gerentes)
 
 1. Ve a **Usuarios** en el menú lateral.
@@ -45,10 +61,11 @@ En **Resumen** ves las ventas del día, ticket promedio, productos más vendidos
 ## Preguntas frecuentes
 
 **¿Qué diferencia hay entre dueño y gerente?**
-El dueño puede crear usuarios, cambiar configuración y ver todos los reportes. El gerente puede hacer todo excepto crear usuarios dueño y cambiar el plan.
+El dueño puede crear usuarios, cambiar configuración y ver todos los reportes. El gerente puede hacer casi todo, excepto crear usuarios dueño, cambiar el plan y administrar **Sucursales** y **Ticket**, que son exclusivos del dueño.
 
 **¿Puedo tener varias sucursales?**
-Sí, con el plan Negocio o superior. Ve a **Sucursales** para agregarlas.
+Sí, si tu plan incluye varias sucursales y no has alcanzado su límite. Ve a **Administración** →
+**Sucursales** para agregarlas.
 
 **¿Cómo activo la facturación electrónica (CFDI)?**
 Es un módulo adicional. Ve a **Configuración Fiscal** para configurar tu RFC y Certificado de Sello Digital.

@@ -17,6 +17,9 @@ Totales del periodo comparados contra el periodo anterior, tendencia de ventas (
 mes según el rango elegido) y desglose por día de la semana — útil para identificar tus días más
 fuertes.
 
+Para volver a imprimir un ticket, ve a **Reportes** → **Ventas**, abre el detalle de la venta y
+haz clic en **"Imprimir ticket"**. Se abrirá el diálogo de impresión del navegador.
+
 ## Empleados
 
 Ingresos y servicios completados por cada empleado, medido a partir de las citas del módulo de

@@ -3,7 +3,7 @@ title: "Cobro y ventas"
 description: "Cómo realizar ventas, gestionar el carrito y cobrar con cualquier método de pago"
 audience: ambos
 modulo: cobro
-rag_tags: [cobro, venta, carrito, pago, efectivo, tarjeta, transferencia, descuento, fiado, ticket, mixto, oferta]
+rag_tags: [cobro, venta, carrito, pago, efectivo, tarjeta, transferencia, descuento, fiado, ticket, mixto, oferta, impresion, imprimir]
 ---
 
 ## ¿Qué es la pantalla de cobro?
@@ -53,6 +53,20 @@ al carrito.
 2. Busca al cliente por nombre o teléfono.
 3. Verifica que no exceda su límite de crédito.
 4. Confirma — el producto sale inmediatamente, el cliente paga después.
+
+## Imprimir el ticket
+
+Después de registrar una venta, la notificación **"Venta registrada"** muestra el botón
+**"Imprimir ticket"**. Haz clic para abrir el diálogo de impresión del navegador.
+
+Si usas una impresora térmica de 58 mm:
+
+1. Selecciona la impresora térmica.
+2. En márgenes, elige **"Ninguno"**.
+3. Desmarca **"Encabezados y pies de página"**.
+
+La impresión funciona sin conexión con la última configuración del ticket guardada en el
+equipo.
 
 ## Preguntas frecuentes
 
