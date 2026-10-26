@@ -40,8 +40,9 @@ El sistema suma:
 - Ventas pagadas en efectivo
 - Abonos de apartados recibidos en efectivo
 - Pagos de fiado recibidos en efectivo
+- Menos el efectivo devuelto en [devoluciones](/usuario/modulos/cambios-devoluciones#corte-de-caja)
 
-El efectivo de ventas con tarjeta o transferencia no entra al cuadre.
+El efectivo de ventas con tarjeta o transferencia no entra al cuadre, ni los vales emitidos o redimidos.
 
 ## Ver el historial de cortes
 

@@ -17,6 +17,12 @@ Totales del periodo comparados contra el periodo anterior, tendencia de ventas (
 mes según el rango elegido) y desglose por día de la semana — útil para identificar tus días más
 fuertes.
 
+Las cifras principales son **ventas netas**: ventas brutas menos devoluciones, descontadas el
+día en que se hizo la devolución. También verás las ventas brutas y el total devuelto. Más
+detalle en [Cambios y devoluciones](/usuario/modulos/cambios-devoluciones#reportes-ventas-netas).
+
+El detalle de cada ticket muestra sus devoluciones y cambios, y el botón **"Cambiar o devolver"**.
+
 Para volver a imprimir un ticket, ve a **Reportes** → **Ventas**, abre el detalle de la venta y
 haz clic en **"Imprimir ticket"**. Se abrirá el diálogo de impresión del navegador.
 

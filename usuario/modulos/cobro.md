@@ -27,6 +27,7 @@ en el carrito, o eliminar artículos con el ícono de papelera.
 | Transferencia | Con campo opcional de referencia |
 | Fiado | Cargo a la cuenta del cliente (requiere cliente seleccionado) |
 | Mixto | Combinación de 2 métodos — ej: efectivo + tarjeta |
+| Vale | Vale de tienda por folio; requiere conexión. Ver [Cambios y devoluciones](/usuario/modulos/cambios-devoluciones#vales-de-tienda) |
 
 ## Aplicar descuento general
 

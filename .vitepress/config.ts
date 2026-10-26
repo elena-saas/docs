@@ -33,6 +33,7 @@ export default defineConfig({
           items: [
             { text: 'Cobro y ventas',         link: '/usuario/modulos/cobro' },
             { text: 'Ticket',                  link: '/usuario/modulos/ticket' },
+            { text: 'Cambios y devoluciones',  link: '/usuario/modulos/cambios-devoluciones' },
             { text: 'Inventario',             link: '/usuario/modulos/inventario' },
             { text: 'Cortes de caja',         link: '/usuario/modulos/cortes' },
             { text: 'Apartados',              link: '/usuario/modulos/apartados' },
