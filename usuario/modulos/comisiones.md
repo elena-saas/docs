@@ -1,30 +1,50 @@
 ---
 title: "Comisiones"
-description: "Define reglas de comisión para tus empleados y gestiona pagos por periodo"
+description: "Paga comisiones a tus empleados por venta, producto o servicio, y gestiona pagos por periodo"
 audience: dueno
 modulo: comisiones
-rag_tags: [comisiones, empleados, pagos, reglas, escalones, periodos, disputas]
+rag_tags: [comisiones, empleados, vendedor, ventas, productos, pagos, reglas, escalones, periodos, disputas]
 ---
 
 ## ¿Qué es el módulo de Comisiones?
 
-Calcula automáticamente cuánto le corresponde a cada empleado por los servicios de Agenda que
-completa, según reglas que tú defines. Requiere que el módulo de Agenda esté activo — las
-comisiones solo se generan a partir de citas completadas, no de ventas de productos.
+Calcula automáticamente cuánto le corresponde a cada empleado según reglas que tú defines. Sirve
+para comisiones por venta de productos, como en tiendas de ropa, joyería o electrónica, y también
+para servicios de [Agenda](/usuario/modulos/agenda-citas). No necesitas tener Agenda activa.
+
+Las comisiones se generan de dos formas:
+
+- **Por venta en Cobrar:** al cobrar, eliges el vendedor de cada producto o servicio.
+- **Por cita completada:** si usas Agenda, al cobrar una cita la comisión se le carga al empleado
+  de la cita.
+
+## Dar de alta a tus empleados
+
+Ve a **Empleados** en el menú lateral y agrega a cada persona que cobra comisión. Un empleado no
+necesita tener usuario en elena.
+
+## Elegir el vendedor al cobrar
+
+1. Agrega los productos al ticket en **Cobrar**.
+2. En cada línea, elige el empleado en el selector de vendedor. Para asignar todo el ticket a la
+   misma persona, usa el control **"Vendedor"** arriba del total.
+3. Cobra normalmente. La comisión se calcula con las reglas activas.
+
+Si una línea queda en **"Sin empleado asignado"**, esa línea no genera comisión.
 
 ## Crear una regla de comisión
 
 1. Ve a **Comisiones → Configuración → Reglas**.
 2. Haz clic en **"Nueva regla"**.
 3. Elige tipo: **porcentaje** (ej. 10% del servicio) o **monto fijo** (ej. $50 por servicio).
-4. Opcional: liga la regla a un empleado específico y/o un servicio específico. Sin especificar,
-   aplica de forma general.
-5. Guarda — la regla queda activa de inmediato para citas completadas después de crearla.
+4. Elige a qué aplica: **todos** (general), **un producto específico** o, si tienes Agenda,
+   **un servicio específico**. Opcional: liga la regla a un empleado específico.
+5. Guarda. La regla aplica a las ventas y citas que se cobren después de crearla.
 
 ## Escalones por volumen
 
-Puedes agregar escalones a una regla para pagar más conforme el empleado complete más servicios
-en el periodo (por ejemplo, 5% en los primeros 10 servicios y 8% del 11 en adelante). Se
+Puedes agregar escalones a una regla para pagar más conforme el empleado acumule más ventas o
+servicios en el periodo (por ejemplo, 5% en los primeros 10 y 8% del 11 en adelante). Se
 configuran desde el detalle de la regla, indicando el rango de conteo y el valor de ese escalón.
 
 ## Pagar comisiones
@@ -62,7 +82,14 @@ empleados.
 ## Preguntas frecuentes
 
 **¿Las comisiones se generan por vender productos?**
-No. Solo se generan al completar una cita del módulo de Agenda (al cobrarla).
+Sí. Al cobrar, elige el vendedor de cada línea y la comisión se calcula con tus reglas.
+
+**¿Necesito el módulo de Agenda para usar Comisiones?**
+No. Comisiones funciona solo para ventas. Si tienes los dos, Agenda y Comisiones cuentan como un
+solo módulo de tu plan. Ver [Planes y módulos](/usuario/conceptos/planes-modulos).
+
+**¿Qué pasa con la comisión si el cliente devuelve el producto?**
+Se descuenta automáticamente: la devolución registra una reversa de la comisión de lo devuelto.
 
 **¿Puedo tener una regla distinta para cada empleado?**
 Sí, liga la regla a un empleado específico. Si no ligas empleado ni servicio, la regla aplica de
