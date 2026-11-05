@@ -39,7 +39,7 @@ usuario con rol Dueño.
 
 **¿Cuántos usuarios puedo tener?**
 Básico incluye 3, Negocio 10 y Pro ilimitados. En Básico y Negocio puedes agregar usuarios
-adicionales por $49 al mes cada uno. Ver [Planes y módulos](/usuario/conceptos/planes-modulos).
+adicionales como extra. Ver [Planes y módulos](/usuario/conceptos/planes-modulos).
 
 **¿Puedo reactivar a un usuario desactivado?**
 Sí, desde la misma pantalla puedes volver a activarlo; conserva su historial de ventas y turnos.
