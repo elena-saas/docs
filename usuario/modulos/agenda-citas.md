@@ -37,7 +37,8 @@ Una cita solo queda marcada como completada al cobrarla, nunca manualmente desde
 
 1. Ve a **Agenda → Configuración**.
 2. En la sección **Empleados**, agrega nombre y descripción; puedes activar o desactivar
-   empleados. Un empleado con citas futuras confirmadas no se puede desactivar.
+   empleados. Un empleado con citas futuras confirmadas no se puede desactivar. También puedes
+   entrar desde **Empleados** en el menú lateral.
 3. Ve a **Servicios** en el menú lateral para crear servicios: nombre, precio y duración en
    minutos.
 4. Opcional: liga productos que se descuentan del inventario automáticamente al vender el

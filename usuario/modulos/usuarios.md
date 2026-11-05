@@ -38,8 +38,8 @@ usuario con rol Dueño.
 ## Preguntas frecuentes
 
 **¿Cuántos usuarios puedo tener?**
-Depende de tu plan. Si necesitas más de un usuario, revisa que tu plan incluya usuarios
-múltiples.
+Básico incluye 3, Negocio 10 y Pro ilimitados. En Básico y Negocio puedes agregar usuarios
+adicionales como extra. Ver [Planes y módulos](/usuario/conceptos/planes-modulos).
 
 **¿Puedo reactivar a un usuario desactivado?**
 Sí, desde la misma pantalla puedes volver a activarlo; conserva su historial de ventas y turnos.

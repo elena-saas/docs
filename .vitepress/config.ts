@@ -57,6 +57,7 @@ export default defineConfig({
             { text: 'Turno de caja',           link: '/usuario/conceptos/turno-caja' },
             { text: 'Variantes de producto',   link: '/usuario/conceptos/variantes' },
             { text: 'Stock y apartados',       link: '/usuario/conceptos/stock-apartado' },
+            { text: 'Planes y módulos',        link: '/usuario/conceptos/planes-modulos' },
           ],
         },
       ],

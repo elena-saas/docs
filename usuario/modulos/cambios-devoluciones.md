@@ -18,6 +18,10 @@ Desde **Cambios y devoluciones** en el menú lateral puedes:
 
 Todo cambio y devolución parte de un ticket existente.
 
+Este módulo viene en todos los planes, pero se puede apagar si tu negocio no maneja devoluciones.
+Con el módulo apagado tampoco se pueden emitir ni canjear vales. Ver
+[Planes y módulos](/usuario/conceptos/planes-modulos).
+
 ## Configura tu política (dueño)
 
 En **Configuración → Cambios y devoluciones** defines las reglas de tu negocio:

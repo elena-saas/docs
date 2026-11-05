@@ -28,9 +28,10 @@ haz clic en **"Imprimir ticket"**. Se abrirá el diálogo de impresión del nave
 
 ## Empleados
 
-Ingresos y servicios completados por cada empleado, medido a partir de las citas del módulo de
-Agenda (no de quién cobró la venta). Requiere que el módulo de Agenda esté activo; si no lo
-tienes, esta vista no muestra datos.
+Ingresos por empleado, medidos por quién hizo el trabajo y no por quién cobró. Incluye las citas
+completadas si usas [Agenda](/usuario/modulos/agenda-citas) y las ventas en las que elegiste
+vendedor si usas [Comisiones](/usuario/modulos/comisiones). Requiere al menos uno de esos dos
+módulos.
 
 ## Productos
 
@@ -51,8 +52,8 @@ operativos.
 ## Preguntas frecuentes
 
 **¿Por qué no veo datos en la pestaña Empleados?**
-Ese reporte depende del módulo de Agenda. Si no lo tienes activo, actívalo desde tu plan para
-empezar a ver estos datos.
+Ese reporte necesita el módulo de Agenda o el de Comisiones. Con Comisiones, sólo cuenta las
+ventas en las que se eligió vendedor al cobrar.
 
 **¿El cajero puede ver Reportes?**
 No. Solo dueño y gerente tienen acceso a este módulo.
